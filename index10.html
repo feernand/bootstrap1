@@ -1,0 +1,49 @@
+<!--Trocar a ordem das colunas e alinhamento individualizado das colunas-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anilhamento de linhas dentro de colunas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recursos/bootstrap/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+    </div>
+    <!--trocando de ordem as colunas-->
+    <div class="container">
+        <div class="row">
+            <div class="col order-3">1</div>
+            <div class="col order-2">2</div>
+            <div class="col order-1">3</div>
+        </div>
+    </div>
+    <!-- alinhamento individualizado das colunas -->
+    <div class="container">
+        <div class="row">
+            <div class="col"><h1>A</h1></div>
+            <div class="col"><h1>B</h1></div>
+            <div class="col"><h1>C</h1></div>
+            <div class="col"><h1>D</h1></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio similique consectetur neque eius nam magnam facere exercitationem iure corporis.</h6></div>
+            <div class="col align-self-start"><h1>B</h1></div>
+            <div class="col align-self-center"><h1>C</h1></div>
+            <div class="col align-self-end"><h1>D</h1></div>
+        </div>
+    </div>
+
+    <script src="recursos/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
